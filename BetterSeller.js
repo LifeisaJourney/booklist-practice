@@ -20,6 +20,8 @@ export class BestSeller extends React.Component {
   }
 }
 
-
 BestSeller.propTypes = { 
+    title: React.PropTypes.string.isRequired,
+    author: React.PropTypes.string.isRequired,
+    weeksOnList: React.PropTypes.number.isRequired
 }
